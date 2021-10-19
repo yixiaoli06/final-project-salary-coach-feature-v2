@@ -1,0 +1,365 @@
+h1{
+font-family: 'Noto Sans', sans-serif;
+font: bold;
+text-align: center;
+padding: 20px;
+color: white;
+}
+
+h2{
+font: bold;
+}
+
+h4{
+text-align: center;
+}
+
+a{
+text-align: center;
+}
+
+.nav li{
+display: inline-block;
+font-size: 16px;
+padding: 20px 0px 0px 20px;
+float: left;
+}
+
+.nav li:hover{
+color: #CC006E;
+}
+
+#logo{
+padding: 0px;
+margin-left: 10px;
+}
+
+ul{
+width: 100%;
+text-align: center;
+padding: 20px 0px 0px 0px;
+}
+
+#upper-right{
+float: right;
+padding: 10px;
+}
+
+@media only screen and (max-device-width: 480px){
+
+.nav li{
+display: flex;
+flex-direction: columns;
+font-size: 16px;
+padding: 0px;
+float: left;
+}
+
+ul{
+width: 40%;
+text-align: center;
+padding: 5% 0% 0% 0%;
+}
+
+#upper-right{
+float: left;
+}
+
+.jumbotron{
+background-image: url("../final-project-salary-coach-feature/images/hero.jpg");
+padding: 5% 10%;
+}
+
+.intro{
+text-align: center;
+padding: 5% 10%;
+}
+
+h1{
+text-align: left;
+padding: 5%;
+}
+
+.intro{
+text-align: center;
+padding: 5% 10%;
+}
+
+.intro-cards{
+display: flex;
+flex-direction: column;
+}
+
+.find-coach{
+text-align: center;
+padding: 5% 10%;
+}
+
+.review-container{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+
+.review-left{
+margin-left: 10%;
+}
+
+.review-right{
+margin-right: 10%;
+}
+
+.footer{
+padding: 10% 10%;
+display: flex;
+flex-direction: column;
+}
+
+.light-logo{
+padding: 10%;
+width: 100%;
+}
+
+.explore-indeed{
+padding: 10%;
+width: 100%;
+}
+
+.explore-indeed-cont{
+padding: 10%;
+width: 100%;
+}
+
+.resources{
+padding: 10%;
+width: 100%;
+}
+
+.follow-us{
+padding: 10%;
+width: 100%;
+}
+
+#footerheading{
+text-align: left;
+}
+
+}
+
+
+.slogan{
+text-align: center;
+}
+
+.jumbotron{
+background-image: url("../final-project-salary-coach-feature/images/hero.jpg");
+color: white;
+padding: 30px 300px;
+}
+
+.btn{
+background-color: #CC006E;
+border: #CC006E;
+align-items:  center;
+font-size: 16px;
+}
+
+.btn:hover{
+background-color: #FFB9DF;
+border: #CC006E;
+color: #CC006E;
+}
+
+#alt-btn-style{
+border: 2px #CC006E;
+background-color:#11349B;
+color: white;
+font-size: 16px;
+cursor: pointer;
+}
+
+#alt-btn-style:hover{
+background-color: #8195CD;
+color: #11349B;
+}
+
+.heroCTAflex{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.heroCTA-get-started{
+align: center;
+padding: 0px 20px;
+}
+
+.heroCTA-learn-more{
+align: center;
+padding: 0px 20px; 
+}
+
+.read-reviews-container{
+justify-content: center;
+margin-left: 370px;
+margin-top: 25px;
+}
+
+.read-reviews{
+color: #2ED005;
+}
+
+.read-reviews:hover{
+color: lightgreen;
+}
+
+.intro{
+text-align: center;
+padding: 10px 150px;
+}
+
+.intro-cards{
+display: flex;
+flex-direction: row;
+}
+
+.price{
+font-weight: bold;
+padding: 0px;
+margin: 0px;
+}
+
+.flex-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+padding: 40px;
+width: 100%;
+margin-left: 40px;
+margin-right: 40px;
+}
+
+.intro-icon{
+padding: 20px;
+}
+
+.central-btn{
+margin-top: 30px;
+}
+
+.find-coach{
+text-align: center;
+padding: 20px 150px;
+}
+
+.heading{
+padding: 30px;
+}
+
+.form{
+display: flex;
+flex-direction: column;
+padding: 50px;
+}
+
+.q1{
+padding: 20px;
+}
+
+.q2{
+padding: 20px;
+}
+
+.q3{
+padding: 20px;
+}
+
+.end-of-form{
+padding: 30px;
+}
+
+.formCTA{
+margin-top: 100px;
+display:flex;
+flex-direction: row;
+}
+
+#formbutton{
+width: 120px;
+}
+
+#formbuttons-alt{
+width: 120px;
+border: 2px #CC006E;
+background-color:#11349B;
+color: white;
+font-size: 16px;
+cursor: pointer;
+}
+
+#formbuttons-alt:hover{
+background-color: #8195CD;
+color: #11349B;
+}
+
+
+.form-btn-get-started{
+padding: 5px;
+}
+
+.form-btn-learn-more{
+padding: 5px;
+}
+
+.review-container{
+display:flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.review-left{
+padding: 100px;
+}
+
+.review-right{
+padding: 100px;
+}
+
+
+.footer{
+background-color:#3C64B1;
+color: white;
+padding: 50px 50px;
+display: flex;
+}
+
+.light-logo{
+padding: 40px;
+width: 100%;
+}
+
+.explore-indeed{
+padding: 40px;
+width: 100%;
+}
+
+.explore-indeed-cont{
+padding: 40px;
+width: 100%;
+}
+
+.resources{
+padding: 40px;
+width: 100%;
+}
+
+.follow-us{
+padding: 40px;
+width: 100%;
+}
+
+#footerheading{
+text-align: left;
+}
+
